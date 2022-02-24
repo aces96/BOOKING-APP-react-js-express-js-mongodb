@@ -1,0 +1,41 @@
+{ 
+    "rooms": {
+        "number": "1",
+        "room_quantity": "quantity 1",
+        "description": "room1",
+        "price": "100"
+    },
+    "rooms": {
+        "number": "2",
+        "room_quantity": "quantity 2",
+        "description": "room2",
+        "price": "200"
+    },
+    "rooms": {
+        "number": "4",
+        "room_quantity": "quantity 3",
+        "description": "room3",
+        "price": "300"
+    },
+    "rooms": {
+        "number": "5",
+        "room_quantity": "quantity 4",
+        "description": "room4",
+        "price": "400"
+    },
+    "rooms": {
+        "number": "6",
+        "room_quantity": "quantity 5",
+        "description": "room5",
+        "price": "500"
+    },
+    "rooms": {
+        "number": "7",
+        "room_quantity": "quantity 6",
+        "description": "room6",
+        "price": "600"
+    }
+}
+
+
+

@@ -1,0 +1,32 @@
+{
+    "hotel": {
+        "name": "hotel1",
+        "description": "description1",
+        "stars": 1
+    },
+    "hotel": {
+        "name": "hotel2",
+        "description": "description2",
+        "stars": 1
+    },
+    "hotel": {
+        "name": "hotel3",
+        "description": "description3",
+        "stars": 1
+    },
+    "hotel": {
+        "name": "hotel4",
+        "description": "description4",
+        "stars": 1
+    },
+    "hotel": {
+        "name": "hotel5",
+        "description": "description5",
+        "stars": 1
+    },
+    "hotel": {
+        "name": "hotel6",
+        "description": "description6",
+        "stars": 1
+    }
+}
