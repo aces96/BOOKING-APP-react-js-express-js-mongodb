@@ -30,8 +30,7 @@ class TableUser extends React.Component {
 
         const users = await axios.get("http://localhost:8080/api/users/users")
                             .then((res)=>{
-                                const users = JSON.parse(res)
-                                console.log(users)
+                                console.log(res)
                             })
                             .catch((err)=>{
                                 console.log(err)
@@ -41,7 +40,7 @@ class TableUser extends React.Component {
     handleDelete = (id)=>{
         const users = axios.delete("http://localhost:8080/api/users/"+id)
                      .then((res)=>{
-                        this.setState({users: res.data})
+                        this.setState({user: res.data})
                          console.log(res)
                      })
                      .catch((err)=>{
