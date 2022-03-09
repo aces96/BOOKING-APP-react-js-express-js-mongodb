@@ -14,6 +14,10 @@ const signToken = id => {
     });
 }
 
+exports.getUser = async (req,res)=>{
+
+}
+
 exports.signup = async (req, res, next) => {
 
     try {
