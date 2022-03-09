@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const express = require('express');
 const dotenv = require('dotenv').config();
+const cors = require('cors');
 const globalErrorHandling = require('./controllers/err.controller');
 const AppError = require('./helpers/appError');
 const userRoute = require('./routes/user.route');
@@ -8,7 +9,13 @@ const hotelRoute = require('./routes/hotel.route');
 const roomRouter = require('./routes/room.route');
 const bookingRouter = require('./routes/booking.route');
 
+
 const app = express();
+
+app.use(cors());
+
+app.options('*', cors());
+
 app.use(express.json());
 app.use(express.urlencoded({extended:true}))
 
