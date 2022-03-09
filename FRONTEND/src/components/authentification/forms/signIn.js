@@ -27,6 +27,8 @@ class SignInForm extends React.Component{
         console.log(this.state)
         const user = await axios.post("http://localhost:8080/api/users/login", {email:this.state.email, password: this.state.password})
         .then ((res)=>{
+            const token = res.token
+            localStorage.setItem({token: token})
             window.location = '/'
             console.log(res)
         }).catch ((err)=>{

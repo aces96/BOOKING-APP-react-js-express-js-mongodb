@@ -28,10 +28,10 @@ class TableUser extends React.Component {
 
     async componentDidMount(){
 
-        const users = await axios.get("http://localhost:8080/api/users/user/user")
+        const users = await axios.get("http://localhost:8080/api/users/users")
                             .then((res)=>{
-                                this.setState({users: res.data})
-                                console.log(this.state.users)
+                                const users = JSON.parse(res)
+                                console.log(users)
                             })
                             .catch((err)=>{
                                 console.log(err)
