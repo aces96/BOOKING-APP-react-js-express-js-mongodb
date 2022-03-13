@@ -49,9 +49,8 @@ class DashBoard extends React.Component{
                             <Item sx={{display: "flex", flexDirection: "column"}}>
                                 <DashBoardStat/>
                             <Routes>
-                                <Route path="/" element={<TableUser/>}/>
-                                <Route path="/client" element={<TableUser/>}/>
-                                <Route path='/hotel' element={<h1>hohohohohoho</h1>}/>                        
+                                <Route path="users" element={<TableUser/>}/>
+                                <Route path='hotel' element={<h1>hohohohohoho</h1>}/>                        
                             </Routes>
 
                             </Item>
